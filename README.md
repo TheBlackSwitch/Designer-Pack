@@ -62,5 +62,8 @@ A: I'm trying my best to update the pack to the newest versions, backports earli
 
 # License:
 
-this project is licensed under [Creative Commons Attribution No Derivatives 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.en)
+Designer Pack © 2024 by theblackswitch is licensed under [Creative Commons Attribution No Derivatives 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.en)
 
+An exception is made for video content, which can be monetized. However, video creators must give appropriate credit by leaving a link to this page in the video
+
+---
