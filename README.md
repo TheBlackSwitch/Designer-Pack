@@ -60,3 +60,7 @@ A: I'm trying my best to update the pack to the newest versions, backports earli
 - Something like a schematic to easily bring your builds into your survival world
 - AND MUCH MORE! (but I don't have the ideas worked out decently yet :P)
 
+# License:
+
+this project is licensed under [Creative Commons Attribution No Derivatives 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.en)
+
