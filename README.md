@@ -2,6 +2,8 @@
 
 Also Check Out my other projects at [theblackswitch.com](https://theblackswitch.com/)!
 
+---
+
 ![The Logo](https://cdn.modrinth.com/data/cached_images/79653a0f53c1e74aad01f70cec50010b5d26a662.png)
 
 # ⬇️Download Here:
