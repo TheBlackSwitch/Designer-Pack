@@ -1,5 +1,5 @@
-execute if score @s d.state matches 0 in overworld run function designer:player_storage/store_main
-execute if score @s d.state matches 0 in overworld run function designer:player_storage/restore_plot
+execute if score @s d.state matches 0 at @s run function designer:player_storage/store_main
+execute if score @s d.state matches 0 at @s run function designer:player_storage/restore_plot
 
 tellraw @s [{"text": "[⚒ Designer ⚒]: ","color": "blue", "bold": true},{"text": "Teleporting to designer plot ", "color": "light_purple", "bold": false},{"score":{"name":"*","objective":"designer"}, "color": "light_purple", "bold": false}]
 tellraw @s [{"text": "[⚒ Designer ⚒]: ","color": "blue", "bold": true},{"text": "Use ", "color": "yellow","bold": false},{"text": "/trigger designer ","color": "gold","bold": false},{"text": "to go back to your world.", "color": "yellow","bold": false}]
@@ -31,6 +31,8 @@ execute at @s run forceload remove ~ ~
 execute at @s run playsound block.portal.travel master @s ~ ~ ~ 0.3 2
 
 execute at @s run spawnpoint @s ~ ~ ~
+
+effect give @s minecraft:blindness 2 0 true
 
 scoreboard players set @s d.state 1
 scoreboard players set @s designer -1

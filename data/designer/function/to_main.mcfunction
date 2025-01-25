@@ -1,8 +1,8 @@
-execute in overworld run function designer:player_storage/store_plot
+execute at @s run function designer:player_storage/store_plot
 clear @s
-execute in overworld run function designer:player_storage/restore_main
+execute at @s run function designer:player_storage/restore_main
 
-tellraw @s [{"text": "[⚒ Designer ⚒]: ","color": "blue", "bold": true},{"text": "Teleporting to back! ", "color": "light_purple", "bold": false},{"score":{"name":"*","objective":"designer"}, "color": "light_purple", "bold": false}]
+tellraw @s [{"text": "[⚒ Designer ⚒]: ","color": "blue", "bold": true},{"text": "Teleporting back!", "color": "light_purple", "bold": false}]
 execute at @s run playsound block.portal.travel master @s ~ ~ ~ 0.3 2
 
 execute if data storage designer:setts {main_gamemode:"survival"} run gamemode survival @s
@@ -11,6 +11,8 @@ execute if data storage designer:setts {main_gamemode:"spectator"} run gamemode 
 execute if data storage designer:setts {main_gamemode:"adventure"} run gamemode adventure @s
 
 effect clear @s
+
+effect give @s minecraft:blindness 2 0 true
 
 scoreboard players set @s d.state 0
 scoreboard players set @s designer -1

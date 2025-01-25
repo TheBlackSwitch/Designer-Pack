@@ -1,4 +1,5 @@
-forceload add 0 0
+schedule function designer:update/check 10s
+
 tellraw @a [{"text":"Designer Pack Reloaded!","color":"green","bold": true}]
 
 execute unless data storage designer:setts generated run function designer:setts/init
