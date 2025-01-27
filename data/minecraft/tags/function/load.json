@@ -1,5 +1,6 @@
 {
     "values": [
-        "designer:load"
+        "designer:load",
+        "theblackswitch:load"
     ]
 }
