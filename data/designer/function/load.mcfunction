@@ -6,10 +6,8 @@ execute unless data storage designer:setts generated run function designer:setts
 
 ##Scoreboards
 scoreboard objectives add designer trigger
-scoreboard objectives add d.slow_tick dummy
 scoreboard objectives add d.state dummy
 scoreboard objectives add d.XpLevels dummy
-scoreboard objectives add temp dummy
 
 scoreboard objectives add designer_config trigger
 scoreboard objectives add d.setts.enable_plot_title dummy

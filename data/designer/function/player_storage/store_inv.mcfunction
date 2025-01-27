@@ -1,5 +1,3 @@
-function designer:player_storage/init
-
 summon chest_minecart ~ ~ ~ {Tags:[player_inv,temp_storage],NoGravity:1b,Invulnerable:1b}
 
 item replace entity @e[type=chest_minecart,distance=..1,tag=player_inv] container.0 from entity @s container.9
