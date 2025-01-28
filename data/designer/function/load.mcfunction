@@ -1,4 +1,5 @@
-schedule function designer:update/check 10s
+function designer:update/check
+data modify storage designer:version loaded set value '2.0.3'
 
 tellraw @a [{"text":"Designer Pack Reloaded!","color":"green","bold": true}]
 
